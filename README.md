@@ -39,6 +39,8 @@ Lembre se de rodar a migrations do prisma bem como a inicialização do prisma:
 $ yarn prisma generate
 $ yarn prisma migrate dev
 
+```
+
 ## `.env`
 Neste arquivo, você deve configurar sua conexão do banco de dados  do Postgres
 No diretório raiz crie um arquivo .env e então insira suas configurações.
