@@ -37,11 +37,7 @@ $ docker run --name rentx-postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d p
 Lembre se de rodar a migrations do prisma bem como a inicialização do prisma:
 ```
 $ yarn prisma generate
-```
-Ou:
-```
 $ yarn prisma migrate dev
-```
 
 ## `.env`
 Neste arquivo, você deve configurar sua conexão do banco de dados  do Postgres
